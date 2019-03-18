@@ -49,6 +49,6 @@ for file in dirs:
             new_list.append(x)
         else:
             print('There are either no files in your directory or there no files with the implemented extensions')
-    #new_name = ''.join(new_list) + str(i) + '.' + file_ext <--- this will automatically increment 1 with as each file is added
+    #new_name = ''.join(new_list) + str(i) + '.' + file_ext <--- this will automatically increment 1 as each file is added to the directory
     new_name = ''.join(new_list) + '.' + file_ext
     os.rename(file, new_name)
