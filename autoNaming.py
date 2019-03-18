@@ -1,5 +1,5 @@
 import os
-path = 'enter the same directory path as above'
+path = 'enter the directory path name here'
 os.chdir(path)
 dirs = os.listdir(path)
 i = 0
