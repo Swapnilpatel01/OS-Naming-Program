@@ -1,13 +1,10 @@
 import os
-os.chdir('/Users/swapnilpatel01/Desktop/folder1')
-print(os.getcwd())
-path = '/Users/swapnilpatel01/Desktop/folder1'
+os.chdir('enter your directory path here')
+path = 'enter the same directory path as above'
 dirs = os.listdir(path)
 i = 0
 for file in dirs:
-    #print(file)
     file_ext = file.rsplit('.')[-1]
-    #print(file_ext)
     new_list = []
     for file_name in range(1):
         if(file_ext == 'png'):
@@ -52,6 +49,6 @@ for file in dirs:
             new_list.append(x)
         else:
             print('There are either no files in your directory or there no files with the implemented extensions')
-    #new_name = ''.join(new_list) + str(i) + '.' + file_ext
+    #new_name = ''.join(new_list) + str(i) + '.' + file_ext <--- this will automatically increment 1 with as each file is added
     new_name = ''.join(new_list) + '.' + file_ext
     os.rename(file, new_name)
