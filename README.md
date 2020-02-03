@@ -6,4 +6,4 @@ The extensions used in this program are the most popular types of file extension
 This program is useful for those with TONS of files in a folder that need to be organized by name. 
 
 
-THANKS! :)
+
