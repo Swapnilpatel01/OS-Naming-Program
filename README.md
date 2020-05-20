@@ -3,7 +3,7 @@ A program I made that automates the naming of a file based on the user's input a
 The extensions used in this program are the most popular types of file extensions.
 
 
-This program is useful for those with TONS of files in a folder that need to be organized by name. 
+This program is useful for those with tons of files in a folder that need to be organized by name. 
 
 
 
